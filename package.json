@@ -1,0 +1,16 @@
+{
+  "name": "iot-central-connector",
+  "version": "0.0.1",
+  "description": "connects dht22 to iot hub and sends data to iot central device",
+  "main": "index.js",
+  "dependencies": {
+    "azure-iot-device": "^1.2.2",
+    "azure-iot-device-mqtt": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tino Mager",
+  "license": "ISC"
+}
